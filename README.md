@@ -1,6 +1,8 @@
 # Ricardian-Contracts
 
-Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to manage storing client agreements as branches for each completed agreement form. This guide assumes you are somewhat familiar with Git commands and have a GitHub.com account.
+Example for using Immutable Ecosystem Ricardian Contracts. A Ricardian contract is any human readable and agreeable document, such as a form, signed contract, application, etc. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to privately manage storing client agreements as branches for each completed agreement form. 
+
+With file and access management on GitHub, it is now possible to create NFTs that are linked as signatories to the public master contract PDF. Ownership of these NFTs may grant rights as defined in the Ricardian contract and enforced by Immutable Ecosystem and other smart contracts. This guide assumes you are somewhat familiar with Git commands and have a GitHub.com account.
 
 # Use GitHub for client signed PDF agreement management
 
