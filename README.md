@@ -1,14 +1,12 @@
 # Ricardian-Contracts
-Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to manage storing client agreements as branches for each completed agreement form.
+Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to manage storing client agreements as branches for each completed agreement form. This guide assumes you are somewhat familiar with Git commands and GitHub.com.
 
 # To use GitHub for version and client signed agreement management
 1. Share the form PDF (website, email, etc.).
 2. Entity representative fills out the PDF form, optionally signs (eSignature or otherwise) and returns it.
 3. Upon reciept of completed form, the repo owner branches the repo (GitHub.com UI), naming the branch after signor/entity.
-
-  a. clone the repo (if not already) and in repo fetch and checkout the new branch ('git fetch' and then 'git checkout <branchName>')
-
-4. Replaces the empty PDF with the user completed PDF (same filename) and then commit the changes to the branch ('git commit' and 'git push origin <branchName>').
+4. Contract owner then clones the repo (if not already), fetch's and checkout's the new branch ('git fetch' and then 'git checkout <branchName>')
+5. Once the local repo is in the new branch, replaces the empty PDF with the user completed PDF (same filename) and then commit the changes to the branch ('git commit' and 'git push origin <branchName>').
 
 Now the GitHub project contains the original PDF in master branch, and client agreemnts in other branches named after the client. See the 'SeanLawless' branch in this repo for an example. This works for any type of document, not just PDFs. Document collections and supplements can also be supported in the same manner using ZIP files - best practice is fixed filenames in master ZIP that match client ZIP - empty files in master ZIP for entirely user supplied material (photo of ID, etc.).
 
