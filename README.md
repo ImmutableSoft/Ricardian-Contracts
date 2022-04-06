@@ -13,7 +13,5 @@ Now the GitHub project contains the original PDF in main branch, and client agre
 # Further secure/tokenize the agreement with an NFT using our Dapp (https://ecosystem.immutablesoft.org/)
 1. Create a product for this contract agreement.
 2. Press New Release button on product management interface and choose a URL (public preferred so applicants can download) for the master/main PDF file (website, etc.). Include/Compute hash of master PDF file and give it a major and submajor version only (ex. 1.0), leave Ricardian root field empty. Submit release, approve metamask transaction to write release to the blockchain.
-
-  a.If proceeding directly to step 3 below, wait for the transaction above to be confirmed and then refresh the browser page before continuing.
-
-3. When recording client agreements, choose the master PDF version as the Ricardian root, add a minor and subminor version, compute hash. If there are no versions in the Ricardian root dropdown list, perform step 2a above and try again.
+3. If proceeding directly to step 4 below, wait for the transaction above to be confirmed and then refresh the browser page before continuing.
+4. When recording client agreements, choose the master PDF version as the Ricardian root, add a minor and subminor version, compute hash. If there are no versions in the Ricardian root dropdown list, perform step 3 above and try again.
