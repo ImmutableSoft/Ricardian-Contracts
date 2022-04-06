@@ -1,8 +1,18 @@
 # Ricardian-Contracts
 
-Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to manage storing client agreements as branches for each completed agreement form. This guide assumes you are somewhat familiar with Git commands and GitHub.com.
+Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a private repo used to maintain the completed contracts received by a contract application owner (Contract Service Provider or otherwise). Replace the example PDF of the Immutable Ecosystem Creator agreement with your own agreement within your own private repo. The goal is to utilize GitHub to manage storing client agreements as branches for each completed agreement form. This guide assumes you are somewhat familiar with Git commands and have a GitHub.com account.
 
 # To use GitHub for version and client signed agreement management
+
+## Initial setup for master PDF/ZIP
+
+1. Create a private repo on GitHub named after the type/name of contract or similar
+2. Add a single file that is the master PDF form document of the contract. OR, multiple master/blank PDF form document(s) and/or blank supplemental information files (photo of ID, etc.).
+3. Commit and push the PDF file to the main branch of the repository.
+4. Create a release for repository using only major and submajor versioning. If multiple PDF forms/supplemental files the release ZIP file is your on-boarding packet. If only a single PDF, that PDF (not the release ZIP) is the on-boarding packet. Online/web forms can also be designed to generate a PDF and can be used in leui of an actual PDF filled out by the user/client.
+5. For new versions, update the PDF file and push to 'main' branch. Create a release with new version (steps 2, 3, 4, 5). 
+
+## Use repository to archive a client agreement
 
 1. Share the form PDF (website, email, etc.).
 2. Entity representative fills out the PDF form, optionally signs (eSignature or otherwise) and returns it.
@@ -12,7 +22,7 @@ Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a priva
 
 Now the GitHub project contains the original PDF in main branch, and client agreemnts in other branches named after the client. See the 'SeanLawless' branch in this repo for an example. This works for any type of document, not just PDFs. Document collections and supplements can also be supported in the same manner using ZIP files - best practice is fixed filenames in master ZIP that match client ZIP - empty files in master ZIP for entirely user supplied material (photo of ID, etc.).
 
-# Immortalize/tokenize the agreement with an NFT using our Dapp (https://ecosystem.immutablesoft.org/)
+# Immortalize/tokenize agreement with NFT using [Immutable Ecosystem Dapp](https://ecosystem.immutablesoft.org/)
 
 ## Initial setup 
 
