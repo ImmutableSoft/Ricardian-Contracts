@@ -29,7 +29,7 @@ Now the GitHub project contains the original PDF in 'main' branch, and client ag
 
 ## Initial setup 
 
-1. Create a product for this contract agreement. Each different master contract PDF must be a different product.
+1. Create a product for this contract agreement. Each different master contract PDF must be a different product. See the [Immutable Ecosystem Documentation](https://immutablesoft.github.io/ImmutableEcosystem/#the-product-and-release-interfaces) for more information.
 2. Press New Release button on product management interface and choose a URL (public preferred so applicants can download) for the master/main PDF file (website, etc.). Include/Compute hash of master PDF file and give it a major and submajor version only (ex. 1.0), leave Ricardian root field empty. Submit release, approve metamask transaction to write release to the blockchain.
 3. If proceeding directly to Recording a client PDF below, wait for the transaction above to be confirmed and then refresh the browser page before continuing.
 4. New versions of the master contract PDF should be recorded as in step 2. above, using incrementing/increasing major and/or submajor version numbers. Client versions that adhere to this new version should have that version selected as their Ricardian root during creation.
