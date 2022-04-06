@@ -23,7 +23,7 @@ Example repo for Immutable Ecosystem Ricardian Contracts. Designed to be a priva
 
 Now the GitHub project contains the original PDF in 'main' branch, and client agreemnts in other branches named after the clients. See the 'SeanLawless' branch in this repo for an example. This works for any type of document, not just PDFs. Document collections and supplements can also be supported in the same manner using ZIP files - best practice is fixed filenames in master ZIP that match client ZIP - empty files in master ZIP for entirely user supplied material (photo of ID, etc.).
 
-# Immortalize/tokenize agreement with NFT using [Immutable Ecosystem Dapp](https://ecosystem.immutablesoft.org/)
+# Tokenize contract within NFT using [Immutable Ecosystem Dapp](https://ecosystem.immutablesoft.org/)
 
 ## Initial setup 
 
@@ -36,3 +36,7 @@ Now the GitHub project contains the original PDF in 'main' branch, and client ag
 
 1. When recording client agreements, choose the correct master PDF version as the Ricardian root, add a minor and subminor version, compute hash of client PDF/ZIP. If there are no versions in the Ricardian root dropdown list, perform step 3 above and try again.
 2. Client PDF versions must adhere/match the selected Ricardian root master PDF version. Please select correct version as the Ricardian root during creation. The default is the most recent version.
+
+## Verify a master or client PDF
+
+1. To verify a PDF/ZIP release just drag and drop the file to the Authenticate bar at the top of the [Immutable Ecosystem Dapp](https://ecosystem.immutablesoft.org/). See our [Drag and drop authenticate demo](https://youtu.be/Yd703JdM-xg) on YouTube for more information.
