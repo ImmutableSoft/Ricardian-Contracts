@@ -43,4 +43,3 @@ Now the GitHub project contains the original PDF in 'main' branch, and client ag
 
 1. To verify a PDF/ZIP release just drag and drop the file to the Authenticate bar at the top of the [Immutable Ecosystem Dapp](https://ecosystem.immutablesoft.org/). See our [Drag and drop authenticate demo](https://youtu.be/Yd703JdM-xg) on YouTube for more information.
 
-<iframe src="https://youtu.be/Yd703JdM-xg" style="width: 500px; height: 300px; border: 0px"></iframe>
