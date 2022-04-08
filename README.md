@@ -20,7 +20,7 @@ Share the form PDF (website, email, social media, Immutable Ecosystem, etc.). On
 
 If that sounds complicated, don't worry, this can all be acheived using GitHub's advanced web UI. To summarize we want to create a new branch, replace the file and then commit/pushing the change to the new branch. To create a new branch, press the small Main dropdown list in top left of the GitHub repository main page (just above the first file). Type in the new branch name (client name, etc.) and select Create branch ... from 'main' to create and move the Git web UI to this new branch. The small Main dropdown in the top left should then change to the name of the new branch, indicating the current branch.
 
-![image branch-drop](./images/branch-dropdown.PNG)
+![image branch-drop](./images/branch-dropdown.png)
 
 Once in the new branch, drag and drop the client PDF to your browser page of the GitHub repository opened to the new branch. It will then open a Commit request page where you can give the commit some additional information (sales associate's name, etc.) before Commiting the change to this new branch. A commit only affects the local repository so after the Commit you will need to press the Push to remote branch button. This is the last step and is required for the remote GitHub server to maintain the branch.
 
