@@ -22,7 +22,9 @@ If that sounds complicated, don't worry, this can all be acheived using GitHub's
 
 ![image branch-drop](./images/branch-dropdown.png)
 
-Once in the new branch, drag and drop the client PDF to your browser page of the GitHub repository opened to the new branch. It will then open a Commit request page where you can give the commit some additional information (sales associate's name, etc.) before Commiting the change to this new branch. A commit only affects the local repository so after the Commit you will need to press the Push to remote branch button. This is the last step and is required for the remote GitHub server to maintain the branch.
+Once in the new branch, click the Add Files drop down and Upload files. Then drag and drop the client PDF to your browser page of the GitHub repository opened to the new branch. It will then open a Commit request page where you can give the commit some additional information (sales associate's name, etc.) before Commiting the change to this new branch.
+
+![image branch-commit](./images/branch-commit.png)
 
 Now the GitHub repository contains the original PDF in 'main' branch, and client agreemnts in other branches named after the clients. See the 'SeanLawless' branch in this repo for an example. There are no limits on the number of branches and this works for any type of document or file, not just PDFs. Document collections and supplements are best supported in the same manner using ZIP files - best practice is fixed filenames in master ZIP that match client ZIP - empty files in master ZIP for entirely user supplied material (photo of ID, etc.).
 
